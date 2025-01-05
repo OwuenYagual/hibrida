@@ -32,7 +32,10 @@
               }
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss"],
-            "scripts": []
+            "scripts": [
+              "src/assets/javascript/tf.min.js", 
+              "src/assets/javascript/teachablemachine-image.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -107,7 +110,9 @@
               }
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss"],
-            "scripts": []
+            "scripts": [
+              "src/assets/javascript/tf.min.js", 
+              "src/assets/javascript/teachablemachine-image.min.js"]
           },
           "configurations": {
             "ci": {
@@ -126,7 +131,10 @@
     }
   },
   "cli": {
-    "schematicCollections": ["@ionic/angular-toolkit"]
+    "schematicCollections": [
+      "@ionic/angular-toolkit"
+    ],
+    "analytics": "953c4099-aae6-457e-a05f-8a474b7cf9a4"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
